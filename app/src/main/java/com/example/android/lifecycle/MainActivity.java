@@ -62,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
 
     // TODO (7) Override onDestroy, call super.onDestroy, and call logAndAppend with ON_DESTROY
 
+    // TODO (8) Figure out and implement how to save text displayed after rotating the device
+        //hint onSaveInstanceState
     /**
      * Logs to the console and appends the lifecycle method name to the TextView so that you can
      * view the series of method callbacks that are called both from the app and from within
